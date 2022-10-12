@@ -8,8 +8,11 @@
 - git add ~
 - git commit -m "~"
 - git push origin master 
+<<<<<<< HEAD
 
 // warning: LF will be replaced by CRLF in bora.txt.
 The file will have its original line endings in your working directory
 -> windows : git config --global core.autocrlf true
 -> linux, mac : git config --global core.autocrlf input
+=======
+>>>>>>> 8953df6af51966c47cec1b4ead02e1fa16d1fbe5
