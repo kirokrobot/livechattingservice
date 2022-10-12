@@ -1,0 +1,15 @@
+//초기설정
+
+- git할 폴더 생성
+- git bash here 지정
+- git init
+- git remote add origin https:// ~ 
+
+- git add ~
+- git commit -m "~"
+- git push origin master 
+
+// warning: LF will be replaced by CRLF in bora.txt.
+The file will have its original line endings in your working directory
+-> windows : git config --global core.autocrlf true
+-> linux, mac : git config --global core.autocrlf input
