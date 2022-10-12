@@ -16,3 +16,11 @@ The file will have its original line endings in your working directory
 -> linux, mac : git config --global core.autocrlf input
 =======
 >>>>>>> 8953df6af51966c47cec1b4ead02e1fa16d1fbe5
+
+일단 안되면 
+git pull origin master
+
+git push origin master
+
+maerg 오류는
+-> git pull origin master --allow-unrelated-histories
