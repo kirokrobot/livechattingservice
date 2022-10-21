@@ -27,6 +27,33 @@
     margin-top: 10px;
 }
 
+/* 접속 종료 알림 */
+.disconnect {
+    width: 90%;
+    margin: auto;
+    background-color: indianred;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* 내가 보낸 메시지 */
+.me {
+    width: 90%;
+    margin: auto;
+    background-color: lemonchiffon;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* 상대방이 보낸 메시지 */
+.other {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
 
 
 
