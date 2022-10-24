@@ -93,7 +93,7 @@ io.sockets.on('connection', function(socket) {
     //보낸 사람을 제외한 나머지 유저에게 메시지 전송
     //io.sockets.emit() = 모든 유저(본인 포함)
     //socket.broadcast.emit() = 본인을 제외한 나머지 모두
-    io.broadcast.emit('update', data);
+    socket.broadcast.emit('update', data);
     })
 
     //접속종료
